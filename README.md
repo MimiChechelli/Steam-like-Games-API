@@ -1,4 +1,9 @@
 # Steam-like API
+é uma simulação inspirada na loja da Steam, desenvolvida com FastAPI e SQLite, destinada a demonstrar conceitos práticos de criação e consumo de APIs REST.
+Ela permite listar jogos, visualizar informações detalhadas e consultar reviews separadamente, seguindo o comportamento real da Steam.
+
+Além disso, a API implementa filtros avançados, como busca por título, faixa de preço e nota média mínima, e também calcula automaticamente estatísticas como média de avaliações, total de reviews e porcentagem de recomendação.
+
 
 ```bash
 steam_api_fastapi/
