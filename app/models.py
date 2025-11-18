@@ -2,6 +2,8 @@ from sqlalchemy import Column, Integer, String, Float, Boolean, Text, ForeignKey
 from sqlalchemy.orm import relationship
 from .database import Base
 
+# Define os modelos de dados para jogos e reviews
+
 class Game(Base):
     __tablename__='games'
     id=Column(Integer, primary_key=True,index=True)

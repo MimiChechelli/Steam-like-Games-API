@@ -2,6 +2,7 @@ from pydantic import BaseModel
 from typing import Optional
 from datetime import datetime
 
+# Garante que o json que entra e sai tenha o formato correto
 
 # GAMES 
 class GameBase(BaseModel):
